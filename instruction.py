@@ -3,6 +3,7 @@ import requests
 import os
 from openai import OpenAI
 from dotenv import load_dotenv, find_dotenv
+import streamlit as st
 
 _: bool = load_dotenv(find_dotenv())
 
@@ -59,6 +60,7 @@ available_functions = {
     "get_financial_ratios": get_financial_ratios,
     "get_financial_growth": get_financial_growth
 }
+
 
 financial_tools_functions = [
     {"type": "code_interpreter"},

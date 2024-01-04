@@ -9,8 +9,7 @@ import json
 
 from openai import OpenAI
 from dotenv import load_dotenv, find_dotenv
-from instructions import available_functions
-
+from instruction import available_functions
 
 import streamlit as st
 
@@ -21,7 +20,7 @@ _: bool = load_dotenv(find_dotenv())  # read local .env file
 client: OpenAI = OpenAI()
 
 
-class FinancialAssistantManager:
+class AIFinancialAssistant:
     def __init__(self, model: str = "gpt-3.5-turbo-1106"):
         self.client = OpenAI()
         self.model = model
