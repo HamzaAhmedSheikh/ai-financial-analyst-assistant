@@ -1,6 +1,6 @@
 # AI Financial Analyst Assistant
 
-## "AI Financial-Analyst" is a straightforward financial analyst project that makes use of REST APIs and OpenAI's Assistants API, parallel function calling, and a code interpreter to assist end users with financial analysis.
+### "AI Financial-Analyst" is a straightforward financial analyst project that makes use of REST APIs and OpenAI's Assistants API, parallel function calling, and a code interpreter to assist end users with financial analysis.
  
 ### Features
  1. AI-Driven Financial Analysis: Utilizes OpenAI's Assistants API to analyze financial data.
