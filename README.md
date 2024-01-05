@@ -34,7 +34,7 @@ Installation Procedure
 Follow the steps below to install and run the application:
 1. Clone the repository using the command:
     ```
-    git clone [https://github.com/HamzaAhmedSheikh/WanderLust-with-Streamlit-and-OpenAI-Assistants-API.git](https://github.com/HamzaAhmedSheikh/ai-financial-analyst-assistant.git)
+    git clone [https://github.com/HamzaAhmedSheikh/ai-financial-analyst-assistant.git](https://github.com/HamzaAhmedSheikh/ai-financial-analyst-assistant.git)
     ```
 2. Install the necessary packages by executing:
     ```
