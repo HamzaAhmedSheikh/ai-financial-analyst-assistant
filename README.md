@@ -1,13 +1,14 @@
 # AI Financial Analyst Assistant
 
-#### "AI Financial-Analyst" is a straightforward financial analyst project that makes use of REST APIs and OpenAI's Assistants API, parallel function calling, and a code interpreter to assist end users with financial analysis.
+### "AI Financial-Analyst" is a project that uses OpenAI's Assistants API, parallel function calling, and a code interpreter to assist end users with financial analysis. The project utilizes REST APIs to retrieve financial data, and a Streamlit web application provides an interactive user interface.
+
  
-### Features
+## Features
  1. AI-Driven Financial Analysis: Utilizes OpenAI's Assistants API to analyze financial data.
  2. Streamlit Web Application: An interactive web interface for easy access and use.
  3. Dynamic Data Retrieval: Fetches financial information from various REST APIs.
 
-### Assistant Functions
+## Assistant Functions
  - get_income_statement: Retrieves the income statement data. This function likely fetches detailed revenue, expense, and 
    profit information for a specified entity over a given period.
 
@@ -40,11 +41,22 @@ Follow the steps below to install and run the application:
     ```
     pip install -r requirements.txt
     ```
-#### 3.  Configure the .env file with your OpenAI API key and [Financial Modeling Prep API](https://site.financialmodelingprep.com/developer/docs?ref=mlq.ai).   
+3. Create a .env file in the root directory of the project and add your OpenAI API key and [Financial Modeling Prep API](https://site.financialmodelingprep.com/developer/docs?ref=mlq.ai). 
+   ```
+    OPENAI_API_KEY=your_openai_api_key
+    FMP_API_KEY=your_financial_modeling_prep_api_key
+   ```  
 
 4. Launch the Streamlit application with the command:
     ```
     streamlit run st_app.py
     ```
+## Contributing
 
+We welcome contributions to the AI Financial Analyst Assistant project! If you would like to contribute, please submit a pull request with your proposed changes.
    
+## Resources
+
+- [OpenAI API Documentation](https://platform.openai.com/docs/introduction)
+- [Streamlit Documentation](https://docs.streamlit.io/)
+- [Financial Modeling Prep API Documentation](https://site.financialmodelingprep.com/developer/docs)
