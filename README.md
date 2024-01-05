@@ -25,3 +25,25 @@
 
  - get_financial_growth: Accesses financial growth data. This function probably tracks the growth trends in various 
    financial aspects like revenue growth, profit growth, etc., over time, indicating the entity's growth trajectory.
+   
+## Getting Started
+
+To get started with this project, you need to have Python installed on your system. After cloning the repository, install the necessary Python packages using the following command:
+
+Installation Procedure
+Follow the steps below to install and run the application:
+1. Clone the repository using the command:
+    ```
+    git clone [https://github.com/HamzaAhmedSheikh/WanderLust-with-Streamlit-and-OpenAI-Assistants-API.git](https://github.com/HamzaAhmedSheikh/ai-financial-analyst-assistant.git)
+    ```
+2. Install the necessary packages by executing:
+    ```
+    pip install -r requirements.txt
+    ```
+3. Launch the Streamlit application with the command:
+    ```
+    streamlit run st_app.py
+    ```
+   
+   
+   
