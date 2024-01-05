@@ -40,7 +40,7 @@ Follow the steps below to install and run the application:
     ```
     pip install -r requirements.txt
     ```
-### 3.  Configure the .env file with your OpenAI API key and [Financial Modeling Prep API](https://site.financialmodelingprep.com/developer/docs?ref=mlq.ai).   
+##### 3.  Configure the .env file with your OpenAI API key and [Financial Modeling Prep API](https://site.financialmodelingprep.com/developer/docs?ref=mlq.ai).   
 
 4. Launch the Streamlit application with the command:
     ```
