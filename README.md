@@ -2,7 +2,7 @@
 
 ### "AI Financial-Analyst" is a project that uses OpenAI's Assistants API, parallel function calling, and a code interpreter to assist end users with financial analysis. The project utilizes REST APIs to retrieve financial data, and a Streamlit web application provides an interactive user interface.
 
- 
+
 ## Features
  1. AI-Driven Financial Analysis: Utilizes OpenAI's Assistants API to analyze financial data.
  2. Streamlit Web Application: An interactive web interface for easy access and use.
@@ -56,7 +56,6 @@ Follow the steps below to install and run the application:
 We welcome contributions to the AI Financial Analyst Assistant project! If you would like to contribute, please submit a pull request with your proposed changes.
    
 ## Resources
-
 - [OpenAI API Documentation](https://platform.openai.com/docs/introduction)
 - [Streamlit Documentation](https://docs.streamlit.io/)
 - [Financial Modeling Prep API Documentation](https://site.financialmodelingprep.com/developer/docs)
